@@ -1,0 +1,38 @@
+{
+  "guard": {
+    "title": "Security Guards",
+    "description": "Our highly trained security personnel provide comprehensive protection for your premises. Services include:",
+    "features": [
+      "24/7 uniformed security presence",
+      "Access control and visitor management",
+      "Regular security patrols and monitoring",
+      "Emergency response and incident reporting",
+      "Trained in first aid and emergency procedures",
+      "Professional appearance and customer service skills"
+    ]
+  },
+  "corporate": {
+    "title": "Corporate Security",
+    "description": "End-to-end security solutions designed for businesses of all sizes. Our corporate security includes:",
+    "features": [
+      "Risk assessment and security planning",
+      "Electronic surveillance systems",
+      "Employee safety training programs",
+      "Asset protection protocols",
+      "Crisis management and emergency planning",
+      "Cybersecurity integration options"
+    ]
+  },
+  "event": {
+    "title": "Event Security",
+    "description": "Specialized security services for events and gatherings. Our event security covers:",
+    "features": [
+      "Crowd control and management",
+      "VIP protection services",
+      "Entry point screening",
+      "Emergency evacuation planning",
+      "Event-specific risk assessment",
+      "Coordination with local authorities"
+    ]
+  }
+}
