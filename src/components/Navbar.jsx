@@ -1,15 +1,16 @@
+// src/components/Navbar.jsx
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import logo from "../assets/logo.jpg";
 
-const Header = ({ scrollToServices }) => {
+const Navbar = ({ scrollToServices }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="bg-white text-red-700 shadow-md">
       <div className="container mx-auto px-2">
         <div className="flex items-center justify-between py-3">
-          {/* Logo and Brand */}
           <div className="flex items-center space-x-4 md:space-x-6">
             <img
               src={logo}
@@ -26,40 +27,46 @@ const Header = ({ scrollToServices }) => {
             </div>
           </div>
 
-          {/* Navigation and Contact Us */}
           <div className="flex items-center space-x-4">
             {/* Desktop Navigation */}
-            <nav className="hidden md:text-xl md:flex items-center space-x-6">
-              <a
-                href="#"
+            <nav className="hidden md:text-lg md:flex items-center space-x-6">
+              <Link
+                to="/"
                 className="hover:text-yellow-400 transition font-semibold"
+                onClick={() => setIsMenuOpen(false)} // Close menu if open
               >
                 Home
-              </a>
+              </Link>
               <button
-                onClick={scrollToServices}
+                onClick={() => {
+                  scrollToServices(); // Scroll to Services section
+                  setIsMenuOpen(false);
+                }}
                 className="hover:text-yellow-400 transition font-semibold"
               >
                 Services
               </button>
-              <a
-                href="#"
+              <Link
+                to="/careers"
                 className="hover:text-yellow-400 transition font-semibold"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Careers
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/blogs"
                 className="hover:text-yellow-400 transition font-semibold"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Blogs
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/about"
                 className="hover:text-yellow-400 transition font-semibold"
+                onClick={() => setIsMenuOpen(false)}
               >
                 About
-              </a>
+              </Link>
             </nav>
 
             {/* Contact Us Button */}
@@ -81,30 +88,43 @@ const Header = ({ scrollToServices }) => {
         {isMenuOpen && (
           <nav className="md:hidden mt-2">
             <div className="flex flex-col space-y-4 border-t border-gray-300 pt-4">
-              <a
-                href="#"
-                className="hover:text-yellow-400 transition font-semibold"
+              <Link
+                to="/"
+                className="hover:text-yellow-400 transition font-semibold text-left"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </a>
+              </Link>
               <button
-                onClick={scrollToServices}
+                onClick={() => {
+                  scrollToServices(); // Scroll to Services section
+                  setIsMenuOpen(false);
+                }}
                 className="hover:text-yellow-400 transition font-semibold text-left"
               >
                 Services
               </button>
-              <a
-                href="#"
+              <Link
+                to="/careers"
                 className="hover:text-yellow-400 transition font-semibold"
+                onClick={() => setIsMenuOpen(false)}
               >
-                About
-              </a>
-              <a
-                href="#"
+                Careers
+              </Link>
+              <Link
+                to="/blogs"
                 className="hover:text-yellow-400 transition font-semibold"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Blogs
-              </a>
+              </Link>
+              <Link
+                to="/about"
+                className="hover:text-yellow-400 transition font-semibold"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
+              </Link>
             </div>
           </nav>
         )}
@@ -113,4 +133,4 @@ const Header = ({ scrollToServices }) => {
   );
 };
 
-export default Header;
+export default Navbar;

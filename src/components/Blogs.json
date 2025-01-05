@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Security Tips for Homeowners",
+    "contentEnglish": "Home security is essential to protect your family and property. Start by installing a reliable security system with cameras and sensors. Ensure all entry points, including doors and windows, are secure with proper locks. Keep your outdoor area well-lit to deter intruders. Remember to avoid sharing your travel plans on social media to minimize risks when you're away. Regularly update your security protocols and conduct maintenance checks on your equipment.",
+    "contentNepali": "घर सुरक्षा तपाईंको परिवार र सम्पत्तिको सुरक्षा गर्नको लागि अत्यावश्यक छ। सुरुमा, क्यामेरा र सेन्सर सहित एक विश्वसनीय सुरक्षा प्रणाली स्थापना गर्नुहोस्। ढोका र झ्याल सहित सबै प्रवेश बिन्दुहरू उचित लकको साथ सुरक्षित राख्नुहोस्। बाहिरी क्षेत्रलाई राम्रो प्रकाशले भरिएको राख्नुहोस् जसले घुसपैठ गर्नेहरूलाई रोक्छ। तपाईं यात्रा गर्दा सामाजिक सञ्जालमा आफ्नो यात्रा योजना साझेदारी नगर्नुहोस्। तपाईंको सुरक्षा प्रोटोकलहरू नियमित रूपमा अद्यावधिक गर्नुहोस् र तपाईंको उपकरणमा मर्मतसम्भार जाँच गर्नुहोस्।",
+    "category": "Safety Tips",
+    "image": "/images/security-tips.jpg",
+    "postedAt": "2025-01-03"
+  },
+  {
+    "title": "Upcoming Safety Seminar",
+    "contentEnglish": "We are excited to announce an upcoming seminar focusing on the latest innovations in home and corporate security. Experts from various fields will discuss modern safety measures, advanced surveillance technologies, and crisis management strategies. The seminar aims to empower attendees with knowledge to enhance their security infrastructure. Don't miss this opportunity to learn and network with industry professionals. Visit our website to register and reserve your spot today.",
+    "contentNepali": "हामी घर र कर्पोरेट सुरक्षा क्षेत्रमा पछिल्लो नवाचारमा केन्द्रित आगामी सेमिनारको घोषणा गर्न पाउँदा खुसी छौं। विभिन्न क्षेत्रका विज्ञहरूले आधुनिक सुरक्षा उपायहरू, उन्नत निगरानी प्रविधिहरू, र संकट व्यवस्थापन रणनीतिहरूको बारेमा छलफल गर्नेछन्। यो सेमिनारले सहभागीहरूलाई आफ्नो सुरक्षा पूर्वाधार सुधार गर्न ज्ञानले सशक्त बनाउनको लागि उद्देश्य राखेको छ। उद्योग व्यवसायीहरूसँग सिक्ने र जालो जोड्ने यो अवसरलाई नछुटाउनुहोस्। हाम्रो वेबसाइटमा गएर दर्ता गर्नुहोस् र आजै आफ्नो ठाउँ सुरक्षित गर्नुहोस्।",
+    "category": "Events",
+    "image": "/images/safety-seminar.jpeg",
+    "postedAt": "2025-01-02"
+  },
+  {
+    "title": "Announcing Our New Security Services",
+    "contentEnglish": "Goldstar Security is proud to introduce our new range of services, including 24/7 monitoring, advanced cybersecurity solutions, and tailored security plans for businesses and homes. Our dedicated team ensures you get the highest level of protection with cutting-edge technology and personalized support. Visit our services page for more details and find the perfect security solution for your needs.",
+    "contentNepali": "गोल्डस्टार सुरक्षा २४/७ अनुगमन, उन्नत साइबर सुरक्षा समाधान, र व्यवसाय र घरहरूको लागि अनुकूलित सुरक्षा योजनाहरू सहित हाम्रो नयाँ सेवाहरूको दायरा परिचय गर्न गर्व गर्दछ। हाम्रो समर्पित टोलीले तपाईंलाई अत्याधुनिक प्रविधि र व्यक्तिगत समर्थनको साथ उच्चतम स्तरको सुरक्षा सुनिश्चित गर्दछ। थप विवरणहरूको लागि हाम्रो सेवाहरूको पृष्ठ भ्रमण गर्नुहोस् र तपाईंको आवश्यकताहरूको लागि उपयुक्त सुरक्षा समाधान फेला पार्नुहोस्।",
+    "category": "Announcements",
+    "image": "/images/new-services.jpg",
+    "postedAt": "2025-01-01"
+  }
+]

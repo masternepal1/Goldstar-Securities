@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Security Guard",
+    "level": "Entry Level",
+    "location": "Milan Chowk, Butwal",
+    "applyBefore": "30 Jun, 2024",
+    "type": "Full Time(Onsite)",
+    "salary": "Negotiable",
+    "vacancy": 10,
+    "description": "Responsible for ensuring the safety and security of premises, staff, and visitors by monitoring and patrolling the area.",
+    "requirements": [
+      "High school diploma or equivalent.",
+      "Prior experience in security is preferred but not mandatory.",
+      "Strong observational and communication skills.",
+      "Ability to work in shifts, including nights and weekends."
+    ],
+    "benefits": [
+      "Uniform provided",
+      "Health insurance",
+      "Paid overtime",
+      "Training and career advancement opportunities"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Supervisor - Security Team",
+    "level": "Mid/Intermediate Level",
+    "location": "Bharatpur / Kathmandu",
+    "applyBefore": "15 Mar, 2024",
+    "type": "Full Time(Onsite)",
+    "salary": "Negotiable",
+    "vacancy": 2,
+    "description": "Lead and manage a team of security guards to ensure smooth operations and adherence to security protocols.",
+    "requirements": [
+      "Bachelor's degree or equivalent experience in security management.",
+      "2+ years of experience in a supervisory role.",
+      "Ability to handle emergencies and make quick decisions.",
+      "Proficiency in basic computer operations for reporting purposes."
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Medical insurance",
+      "Paid time off",
+      "Performance bonuses"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Security Guard - Night Shift",
+    "level": "Entry Level",
+    "location": "Bharatpur / Kathmandu",
+    "applyBefore": "18 Mar, 2024",
+    "type": "Full Time(Onsite)",
+    "salary": "Negotiable",
+    "vacancy": 2,
+    "description": "Provide security during night shifts by monitoring premises, performing patrols, and responding to incidents as needed.",
+    "requirements": [
+      "High school diploma or equivalent",
+      "Night shift flexibility.",
+      "Strong communication and conflict resolution skills",
+      "Ability to work independently."
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Shift allowances",
+      "Paid time off",
+      "Health benefits"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Security Analyst",
+    "level": "Mid/Intermediate Level",
+    "location": "Bharatpur / Kathmandu",
+    "applyBefore": "10 Mar, 2024",
+    "type": "Full Time(Onsite)",
+    "salary": "Negotiable",
+    "vacancy": 1,
+    "description": "Analyze security systems, identify vulnerabilities, and work with teams to enhance physical security measures.",
+    "requirements": [
+      "Bachelor's degree in criminal justice, security management, or related field.",
+      "2+ years of experience in security analysis or a related role.",
+      "Strong problem-solving and analytical skills.",
+      "Familiarity with security tools and technologies."
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Professional development programs",
+      "Health insurance",
+      "Paid vacation"
+    ]
+  }
+]
